@@ -43,7 +43,7 @@
 .-top {}
 .\-top {}
 
-#\#test {}
+/* #\#test {} */
 
 .grid {
   display: flex;
@@ -82,9 +82,9 @@ body {
 
 .♫ {}
 
-.\3A \`\( {} /* matches elements with class=":`(" */
-.\31 a2b3c {} /* matches elements with class="1a2b3c" */
-#\#fake-id {} /* matches the element with id="#fake-id" */
+/*.\3A \`\( {} /* matches elements with class=":`(" */
+/*.\31 a2b3c {} /* matches elements with class="1a2b3c" */
+/* #\#fake-id {} /* matches the element with id="#fake-id" */
 #-a-b-c- {} /* matches the element with id="-a-b-c-" */
 #© {} /* matches the element with id="©" */
 
